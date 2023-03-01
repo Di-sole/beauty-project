@@ -1,0 +1,181 @@
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+	.telephone {
+		&__button {display: none;}
+	}
+	.menu {
+		&__list {font-size: 14px;}
+	}
+	.sale {
+		&__content {width: 60%;}
+		&__image {width: 400px;}
+	}
+	.goods {
+		&__image {width: 120px;}
+		&__row {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__card {
+			width: 45%;
+			margin-right: 0;
+			&:nth-child(1) {margin-bottom: 30px;}
+			&:nth-child(2) {margin-bottom: 30px;}
+		}
+	}
+	.card {
+		&__price {font-size: 18px;}
+	}
+	.interaction {
+		&__element {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+	}
+	.subscribe {
+		margin-right: 15px;
+		&__image {display: none;}
+	}
+	.footer {
+		&__row {font-size: 12px;}
+	}
+	.socials {
+		&__list {
+			li {
+				width: 30px;
+				height: 30px;
+				margin-right: 10px;
+			}
+			img {width: 15px;}
+		}
+		&__image {
+			&_short {margin-top: 9px}
+			&_tall {margin-top: 5px}
+		}
+	}
+	.copyright {
+		&__text {font-size: 8px;}
+		&__link {font-size: 8px;}
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		max-width: none;
+	}
+	.logo {
+		&__image {
+			width: 45px;
+			height: 45px;
+			margin-right: 10px;
+		}
+		&__text {font-size: 26px;}
+	}
+	.telephone {
+		&__text {
+			margin: 0;
+			font-size: 14px;
+		}
+	}
+	.navigation {
+		padding: 8px;
+		font-size: 10px;
+	}
+	.header {
+		&__row {padding: 10px;}
+	}
+	.menu {
+		padding: 15px;
+		&__list {font-size: 12px;}
+	}
+	.sale {
+		background-image: none;
+		&__row{justify-content: space-around;}
+		&__content {width: 40%;}
+		&__title {
+			margin-bottom: 30px;
+			font-size: 36px;
+		}
+		&__text {
+			margin-bottom: 30px;
+			line-height: 16px;
+		}
+		&__image {width: 300px;}
+	}
+	.goods {
+		&__title {font-size: 20px;}
+	}
+	.card {
+		padding: 20px 15px;
+		line-height: 16px;
+		&__image {
+			width: 100px;
+		}
+		&__text {
+			margin-bottom: 12px;
+			line-height: 16px;
+		}
+		&__price {font-size: 18px;}
+	}
+	.footer {
+		&__row {padding: 25px;}
+	}
+}
+@media (max-width: 550px) {
+	.menu {
+		justify-content: flex-end;
+		&__list {display: none;}
+		&_burger {display: block;}
+	}
+	.section {
+		&__sale {margin-bottom: 50px;}
+		&__goods {margin-bottom: 70px;}
+		&__interaction {margin-bottom: 90px;}
+	}
+	.sale {
+		&__row {padding: 10px;}
+		&__title {
+			margin-bottom: 20px;
+			font-size: 32px;
+		}
+		&__text {
+			margin-bottom: 20px;
+			line-height: 12px;
+		}
+		&__image {width: 200px;}
+		&__button {padding: 8px 18px;}
+	}
+	.goods {
+		&__header {margin-bottom: 15px;}
+		&__title {font-size: 20px;}
+		&__image {display: none;}
+	}
+	.interaction {
+		&__element {padding: 15px 20px;}
+	}
+	.subscribe {
+		&__content {width: 100%;}
+		&__title {font-size: 16px;}
+		&__text {line-height: 16px;}
+		&__input {padding: 4px 12px;}
+	}
+	.shops {
+		&__content {width: 100%;}
+		&__title {font-size: 16px;}
+		&__text {line-height: 16px;}
+		&__button {padding: 4px 12px;}
+	}
+	.footer {
+		&__row{
+			flex-direction: column;
+			padding: 15px 0;
+		}
+	}
+}
